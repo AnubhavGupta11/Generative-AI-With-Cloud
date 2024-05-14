@@ -2,6 +2,7 @@ import boto3
 import botocore.config
 import json
 
+
 from datetime import datetime
 
 def blog_generate_using_bedrock(blogtopic:str)-> str:
